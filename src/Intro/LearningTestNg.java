@@ -15,6 +15,9 @@ public class LearningTestNg {
   public void MethodA() {
 	  
 	  System.out.println("Executing Method A");
+	  
+	  System.out.println("Executing Method B");
+	  System.out.println("Executing Method GitDemo");
   }
   
 

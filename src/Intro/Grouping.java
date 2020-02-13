@@ -15,6 +15,9 @@ public class Grouping {
 	@Test(priority = 1,groups = {"Functional", "Regression"})
 	public void MethodB() {
 		System.out.println("Executing Method B");
+		System.out.println("Executing Method V");
+		System.out.println("Executing Method Demo");
+		System.out.println("Executing Method Develop");
 	}
 	
 	
