@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TamingSuite]">
+  <test thread-count="5" name="Dependency Test CAse(failed)">
+    <classes>
+      <class name="Intro.Taming">
+        <methods>
+          <include name="SendingEmail"/>
+          <include name="Login"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- Intro.Taming -->
+    </classes>
+  </test> <!-- Dependency Test CAse(failed) -->
+</suite> <!-- Failed suite [TamingSuite] -->

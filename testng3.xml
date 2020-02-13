@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TamingSuite">
+	<test thread-count="5" name="Gmail Test CAse">
+		<classes>
+			<class name="Intro.Gmail" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Yahoo Test Case">
+		<classes>
+			<class name="Intro.yahooEmail" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- TamingSuite -->

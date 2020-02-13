@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group Suite" duration-ms="56" started-at="2019-08-28T04:59:17Z" finished-at="2019-08-28T04:59:17Z">
+    <groups>
+      <group name="Functional">
+        <method signature="Grouping.MethodB()[pri:1, instance:Intro.Grouping@50c87b21]" name="MethodB" class="Intro.Grouping"/>
+      </group> <!-- Functional -->
+      <group name="Regression">
+        <method signature="Grouping.MethodA()[pri:2, instance:Intro.Grouping@50c87b21]" name="MethodA" class="Intro.Grouping"/>
+        <method signature="Grouping.MethodB()[pri:1, instance:Intro.Grouping@50c87b21]" name="MethodB" class="Intro.Grouping"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Group Test Case" duration-ms="56" started-at="2019-08-28T04:59:17Z" finished-at="2019-08-28T04:59:17Z">
+      <class name="Intro.Grouping">
+        <test-method status="PASS" signature="MethodB()[pri:1, instance:Intro.Grouping@50c87b21]" name="MethodB" duration-ms="12" started-at="2019-08-28T04:59:17Z" finished-at="2019-08-28T04:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodB -->
+        <test-method status="PASS" signature="MethodA()[pri:2, instance:Intro.Grouping@50c87b21]" name="MethodA" duration-ms="3" started-at="2019-08-28T04:59:17Z" finished-at="2019-08-28T04:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodA -->
+      </class> <!-- Intro.Grouping -->
+    </test> <!-- Group Test Case -->
+  </suite> <!-- Group Suite -->
+</testng-results>
